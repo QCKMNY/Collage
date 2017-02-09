@@ -1,0 +1,69 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: #e8eced;
+}
+.wrapper {
+    width: 100%;
+    color: #888888;
+}
+.registration {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding: 100px 0;
+    font: 24px 'Verdana';
+}
+.input_area {
+    width: 100%;
+    background-color: #f6f6f6;
+    border: 1px solid #d2d1d3;
+    border-radius: 10px;
+    margin: 0 auto;
+}
+.error {
+    width: 100%;
+    /*height: 20px;*/
+    font-size: 16px;
+    /*background-color: #FFDAB9;*/
+    /*border: 1px solid red;*/
+    /*border-radius: 10px;*/
+    /*margin: 10px 0;*/
+    color: red;
+    margin: 0 auto;
+    /*display: none;*/
+}
+
+.row {
+    width: 100%;
+    border-bottom: 1px solid #d2d1d3;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+.row span {
+    width: 20%;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.field {
+    width: 50%;
+    height: 20px;
+    background-color: #fff;
+    border: 1px solid #d2d1d3;
+    border-radius: 5px;
+}
+.button {
+    width: 100%;
+    padding: 15px 0;
+    box-sizing: border-box;
+}
+.reg_buttom {
+    width: 30%;
+    color: #888888;
+    font: 16px 'Verdana';
+}

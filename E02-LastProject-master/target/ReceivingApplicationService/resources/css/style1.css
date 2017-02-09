@@ -1,0 +1,30 @@
+.makeMeDraggable { 
+	width: 200px; 
+	height: 200px; 
+	display: inline-block; 
+	text-align: center;
+}
+.draggableHelper { 
+	width: 200px; 
+	height: 200px; 
+	background: red; 
+	text-align: center;
+}
+.img { width: 100%; }
+.makeMeDroppable { 
+	float: right; 
+	width: 58%; height: 500px; 
+	border: 1px solid #999; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	display: inline-block; 
+	background-color: #fff;
+}
+.wrapper {
+	height: 500px;
+	width: 40%; 
+	overflow: auto; 
+	display: inline-block; 
+	border: 1px solid #999; 
+	box-shadow: 0 0 10px rgba(0,0,0,0.5); 
+	background-color: #fff;
+}
